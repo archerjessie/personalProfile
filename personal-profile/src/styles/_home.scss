@@ -1,0 +1,30 @@
+.homepage {
+  .page__header {
+    .homepage__title {
+      text-align: center;
+      padding: 70px 30px 40px 30px;
+
+      h2 {
+        font-weight: 500;
+      }
+    }
+
+    .homepage__avatar {
+      img {
+        width: 220px;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 1);
+        margin: 24px 0 -24px 0;
+
+        &:hover {
+          border: 1px solid gray;
+          transform: translateY(-8px);
+        }
+      }
+    }
+  }
+  .personal__detail {
+    white-space: nowrap;
+  }
+}

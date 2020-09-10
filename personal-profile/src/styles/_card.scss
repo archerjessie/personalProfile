@@ -1,0 +1,18 @@
+.history-card {
+  .experience__divider {
+    border-right: 1px solid #dadada;
+  }
+  .timeline-left {
+    border-right: solid lightblue;
+    text-align: end;
+    padding: 20px 0;
+    margin-bottom: 0;
+    input[type="radio"] {
+      margin-right: -8px;
+    }
+  }
+  .timeline-right {
+    border-top: outset 1px;
+    margin: 28px -5px 0 5px;
+  }
+}
